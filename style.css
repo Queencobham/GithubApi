@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background:#92bde7;
+  color:#485e74;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.container{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+
+.brand{
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.git-info{
+  background: #fff;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.git-info h3, .git-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+
+  
+/* FORM STYLES */
+input[type=text] {
+	border: 1px solid #A9A9A9;
+	font-size:  17px;
+  padding-left: 20px;
+  outline: none;
+  
+}
+.search-user  .searchbutton, .search-user  input{
+  width:100%;
+  padding:1em;
+  border :1px solid #c9e6ff;
+}
+
+.search-user .searchbutton{
+  margin-top: -30px;
+  background:#c9e6ff;
+  border:0;
+  text-transform: uppercase;
+}
+
+.search-user .searchbutton:hover,.search-user .searchbutton:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .git-info h3, .git-info ul, .brand{
+    text-align: center;
+  }
+}
+.name{
+  color:#fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -20px;
+}
+.image{
+  width:100%;
+  margin-top: 48px;
+}
+.panel-default{
+  margin-left: -20px;
+  width:97%;
+}
+.btn-block{
+  background:#c9e6ff;
+  color: black;
+  border:0;
+  text-transform: uppercase;
+}
+.btn-block:hover, .btn-block:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
+.panel-title{
+  font-size:25px;
+} 
+.list-group-item{
+  font-size: 22px;
+  font-weight: 400;
+  color: #A9A9A9;
+}
+.label {
+ background-color: #92bde7;
+ margin-left: 20px;
+}
+
